@@ -1,0 +1,21 @@
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:aliceblue;
+    margin: 50px;
+    @include propiedades (250px,400px);
+    .tarjeta__img{
+        @include propiedades (200px,300px);
+    }
+    .btn{@extend .btn
+    }
+}
+
+
+
+

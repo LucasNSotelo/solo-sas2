@@ -1,0 +1,13 @@
+.mainHotsale{
+    display: flex;
+    flex-wrap: wrap;
+    .divHotsale{
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

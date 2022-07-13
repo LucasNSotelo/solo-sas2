@@ -1,0 +1,14 @@
+.mainHome {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    grid-area: mainHome;
+    .divMainHome{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-content: center;
+    }
+}

@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header div {
+  display: flex;
+  grid-area: header;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../img/fondoheader.png);
+}
+
+main {
+  background-image: url(../img/armario3\ -\ copia.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: #001850;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 120px;
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 37px 60px auto px 120px;
+  grid-template-areas: "header" "navBar" "mainHome" "footer";
+}
+
+@media (max-width: 1200px) {
+  main {
+    background-attachment: fixed;
+  }
+}
+.mainHome {
+  flex-direction: column;
+  height: 100%;
+}
+
+.tarjeta {
+  margin-top: 10px;
+}
+
+.divProductos {
+  margin-top: 10px;
+}
+
+.divHotsale {
+  margin-top: 10px;
+}
+
+.divMainHome {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.redes img {
+  margin: 5px;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: aliceblue;
+  margin: 50px;
+  width: 250px;
+  height: 400px;
+}
+.tarjeta .tarjeta__img {
+  width: 200px;
+  height: 300px;
+}
+.mainHome {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  grid-area: mainHome;
+}
+.mainHome .divMainHome {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-content: center;
+}
+
+.mainProductos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainProductos .divProductos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-content: center;
+}
+
+.quienesSomos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.quienesSomos .quienesSomosDesc {
+  width: 50%;
+  font-size: 25px;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.mainHotsale {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mainHotsale .divHotsale {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes {
+  display: flex;
+}
+
+.logo img {
+  width: 32px;
+  margin: 10px;
+}
+
+.redes img {
+  width: 32px;
+  margin: 10px;
+}
+
+main form {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+main form fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 50px;
+  width: 50%;
+}
+main form fieldset label {
+  padding: 10px;
+}
+main form fieldset .formularios {
+  flex-direction: column;
+  display: flex;
+}
+main form fieldset .iframeMapa {
+  width: 300px;
+  margin: 20px;
+}
+
+.btn, .tarjeta .btn {
+  padding: 3px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #fc9cb4;
+  margin: 5px;
+}
+
+h6 {
+  color: aliceblue;
+}
+
+h1 {
+  font-family: "Caveat", cursive;
+}
+
+.divBtn {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}

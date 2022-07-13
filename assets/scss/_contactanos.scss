@@ -1,0 +1,26 @@
+main form{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    fieldset {
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 50px;
+        width: 50%;
+        label {padding: 10px;}
+        .formularios{
+        flex-direction: column;
+        display: flex;
+        }
+        .iframeMapa{
+        width: 300px;
+        margin: 20px;
+        }
+    }
+}
+
+

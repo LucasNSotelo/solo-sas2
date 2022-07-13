@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 37px 60px auto px 120px ;
+    grid-template-areas: "header" 
+                          "navBar"
+                          "mainHome" 
+                          "footer";
+}
+@media(max-width:1200px) {
+    main{background-attachment: fixed;}
+
+}
+.mainHome {flex-direction: column;
+height:100%;}
+.tarjeta {
+    margin-top: 10px;
+}
+.divProductos{
+    margin-top: 10px;
+}
+.divHotsale{
+    margin-top: 10px;
+}
+
+.divMainHome{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.redes img{
+    margin:5px
+}

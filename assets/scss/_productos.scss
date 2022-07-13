@@ -1,0 +1,13 @@
+.mainProductos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .divProductos{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-content: center;}
+}
